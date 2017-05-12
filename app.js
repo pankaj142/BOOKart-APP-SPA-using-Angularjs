@@ -6,11 +6,11 @@ var myApp =angular.module("myApp", ["ngRoute","ngAnimate"]);
 myApp.config(function($routeProvider) {
 	$routeProvider
 				.when("/books",{
-					templateUrl:"partials/book-list.html",
+					templateUrl:"book-list.html",
 					controller: "bookListCntrl"
 				})
 				.when("/kart",{
-					templateUrl:"partials/kart-list.html",
+					templateUrl:"kart-list.html",
 					controller:"kartListCntrl"
 					
 				})
